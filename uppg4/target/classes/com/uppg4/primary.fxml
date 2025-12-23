@@ -12,8 +12,10 @@
    <children>
       <TableView fx:id="tvDelayed" layoutX="10.0" layoutY="69.0" prefHeight="400.0" prefWidth="780.0">
          <columns>
-            <TableColumn fx:id="colDate" text="Date" />
-            <TableColumn fx:id="colTime" text="Time" />
+            <TableColumn fx:id="colStartDate" text="Start date" />
+            <TableColumn fx:id="colStartTime" text="Start time" />
+            <TableColumn fx:id="colEndDate" text="End date" />
+            <TableColumn fx:id="colEndTime" text="End time" />
             <TableColumn fx:id="colActivity" text="Activity" />
             <TableColumn fx:id="colPlace" text="Place" />
             <TableColumn fx:id="colComment" text="Comment" />
