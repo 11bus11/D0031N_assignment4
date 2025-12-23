@@ -1,7 +1,6 @@
 package com.uppg4;
-import com.fasterxml.jackson.databind.*;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.fasterxml.jackson.*;
+
 import java.io.File;
 import java.io.IOException;
 import java.sql.Time;
